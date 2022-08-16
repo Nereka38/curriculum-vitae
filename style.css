@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #1C9C94;
+  color: #72157a;
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./img/bg.jpg');
+  background-image: url('./img/wallpaper.jpg');
   background-size: cover;
   background-position: fixed;
   color: white;
@@ -84,6 +84,10 @@ a .fab {
   color: white;
 }
 
+.about-me {
+  font-weight: bold;
+}
+
 .course, .skills {
   display: -ms-flexbox;
   display: flex;
@@ -92,7 +96,7 @@ a .fab {
 }
 
 .course .title {
-  color: #509e98;
+  color: #c784c7;
   -ms-flex: 0 0 33.3%;
   flex: 0 0 33.3%;
   max-width: 33%;
@@ -119,9 +123,9 @@ a .fab {
 }
 
 .skills .column ul > li:before {
-  content: "►";
+  content: "■";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #d8b7d8;
 }
 
 .school, .job-title {
@@ -129,19 +133,19 @@ a .fab {
 }
 
 .school span, .job-title span {
-  color: #889499;
+  color: #c784c7;
   text-decoration: underline;
 }
 
 ul.job-description li:before{
   content: "✔";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #d8b7d8;
 }
 
 footer {
  padding: 1em 1.5em;
- background: #A7B8BF;
+ background: #d8b7d8;
  color: white;
  text-align: right;
 }
