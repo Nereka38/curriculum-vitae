@@ -114,7 +114,7 @@ a .fab {
 
 .skills .column {
   -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
+  flex: 0 0 30%;
   max-width: 50%;
 }
 
