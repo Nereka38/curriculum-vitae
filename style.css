@@ -81,6 +81,18 @@ main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(60px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .fab {
   border: 1px solid white;
   border-radius: 50%;
@@ -181,7 +193,7 @@ footer {
  padding: 1em 1.5em;
  background: #d8b7d8;
  color: white;
- text-align: right;
+ text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
